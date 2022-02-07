@@ -78,7 +78,7 @@
 		</profiles>
     ```
     3. Write your pipeline file as below
-    ```
+    
     pipeline {
     agent any
     stages {
@@ -100,6 +100,6 @@
             }
         }
         // --> Deployment Stages here <-- //
+      }
     }
-}
-    ```
+    
