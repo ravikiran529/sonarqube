@@ -75,11 +75,11 @@
 		                </plugins>
 		            </build>
 		        </profile>
-		</profiles>```
+		</profiles>
     
     3. Write your pipeline file as below
     
-    ```pipeline {
+    pipeline {
     agent any
     stages {
         stage('Clone sources') {
@@ -101,5 +101,6 @@
         }
         // --> Deployment Stages here <-- //
       }
-    }```
+    }
+    ```
     
