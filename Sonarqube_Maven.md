@@ -2,6 +2,7 @@
 2. Configure a webhook URL in sonarqube server 
 ```https://jenkins_url:8080/sonarqube-webhook```
 3. Open your project pom.xml and add the below content
+
 ```
 <dependencies>
 		        <dependency>
@@ -77,6 +78,7 @@
 		        </profile>
 		</profiles>
     ```
+    
     3. Write your pipeline file as below
     
     pipeline {
